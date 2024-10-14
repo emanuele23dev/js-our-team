@@ -27,7 +27,7 @@ const teamMembers = [
     img: "img/female2.png"
   },
   {
-    name: "Roberto Lorem",
+    name: "Roberto Lor",
     role: "SEO Specialist",
     email: "robertolorem@team.com",
     img: "img/male3.png"
@@ -63,8 +63,8 @@ for (let i = 0; i < teamMembers.length; i++) {
   `
 
   rowEl.innerHTML += markup;
-
 }
+
 
 
 
