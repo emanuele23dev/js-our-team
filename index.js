@@ -39,3 +39,35 @@ const teamMembers = [
     img: "img/female3.png"
   }
 ];
+
+let rowEl = document.querySelector('.row')
+
+for (let i = 0; i < teamMembers.length; i++) {
+  const teamMember = teamMembers[i]
+  console.log(teamMember);
+
+  let {name, role, email, img} = teamMember;
+  
+  let markup = `
+  <div class="col-4">
+    <div class="d-flex">
+      <img src="${img}" alt="">
+      <div class="bg-dark text-white p-2 text-center">
+        <h3 class="mt-4">${name}</h3>
+        <p>${role}</p>
+        <p class="text-primary">${email}</p>
+      </div>
+    </div>
+  </div>
+  `
+
+  rowEl.innerHTML += markup;
+
+}
+
+
+
+
+
+
+
