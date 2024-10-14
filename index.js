@@ -48,11 +48,12 @@ for (let i = 0; i < teamMembers.length; i++) {
 
   let {name, role, email, img} = teamMember;
   
+  
   let markup = `
   <div class="col-4">
     <div class="d-flex">
       <img src="${img}" alt="">
-      <div class="bg-dark text-white p-2 text-center">
+      <div class="bg-dark text-white p-2 text-center width-card">
         <h3 class="mt-4">${name}</h3>
         <p>${role}</p>
         <p class="text-primary">${email}</p>

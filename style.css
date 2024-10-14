@@ -8,3 +8,11 @@ header {
     position: sticky;
     top: 0;
 }
+
+.row {
+  display: flex;
+}
+
+.width-card {
+    width: 200px;
+}
